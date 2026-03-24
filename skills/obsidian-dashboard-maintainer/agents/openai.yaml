@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Dashboard Maintainer"
+  short_description: "Maintain the Obsidian homepage, dashboard, and navigation layer"
+  default_prompt: "请维护 ResearchPilot 的 Obsidian 首页看板、导航入口和 Dataview/CSS 展示层，使 Vault 打开后能稳定提供最近事务与项目总览。"

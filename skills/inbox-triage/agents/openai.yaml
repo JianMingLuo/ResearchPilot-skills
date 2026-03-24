@@ -1,0 +1,5 @@
+interface:
+  display_name: "Inbox Triage"
+  short_description: "Route mixed raw inputs to the right workflow"
+  default_prompt: "请先判断这批原始输入属于哪一类内容，并告诉我应该先走哪个 skill 和目录。"
+

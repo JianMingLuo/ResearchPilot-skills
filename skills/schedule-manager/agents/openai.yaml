@@ -1,0 +1,5 @@
+interface:
+  display_name: "Schedule Manager"
+  short_description: "Plan research schedules with constraint and conflict awareness"
+  default_prompt: "请帮我整理实验和非实验事务的安排，检查冲突，并保留固定事项、变更记录和待确认项。"
+

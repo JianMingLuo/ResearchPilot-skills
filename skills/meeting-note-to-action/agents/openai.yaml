@@ -1,0 +1,5 @@
+interface:
+  display_name: "Meeting Note To Action"
+  short_description: "Turn meetings into structured notes and follow-up actions"
+  default_prompt: "请把这次讨论整理成正式会议纪要，并明确决定事项、行动项和待确认项。"
+

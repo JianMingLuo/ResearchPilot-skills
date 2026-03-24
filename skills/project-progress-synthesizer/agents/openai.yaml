@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Progress Synthesizer"
+  short_description: "Summarize project stage, gaps, blockers, and next actions"
+  default_prompt: "请基于项目相关材料生成项目级进展画像，明确当前阶段、缺口、阻塞和下一步动作。"
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Index Maintainer"
+  short_description: "Maintain project entry pages and bounded retrieval scope"
+  default_prompt: "请为这个项目维护正式索引页和检索范围，确保后续综合优先读取受控 source set。"
+

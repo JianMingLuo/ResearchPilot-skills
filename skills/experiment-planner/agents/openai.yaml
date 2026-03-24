@@ -1,0 +1,5 @@
+interface:
+  display_name: "Experiment Planner"
+  short_description: "Design rigorous research and experiment plans"
+  default_prompt: "请基于事实、客观、专业地帮助我把科研构思推进成正式实验方案；信息不足时标记为待确认，不要编造。"
+

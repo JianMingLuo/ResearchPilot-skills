@@ -1,0 +1,5 @@
+interface:
+  display_name: "Daily Log To Report"
+  short_description: "Turn one day of research progress into a formal daily log"
+  default_prompt: "请把我今天的科研进展整理成正式日报，只处理单日内容，信息不足时标记为待确认。"
+

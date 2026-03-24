@@ -1,0 +1,5 @@
+interface:
+  display_name: "Protocol Publisher"
+  short_description: "Publish normalized protocols to Markdown and Word"
+  default_prompt: "请把已规范化的 protocol 发布为人读版 Markdown 和 Word，并保持与索引路径一致。"
+

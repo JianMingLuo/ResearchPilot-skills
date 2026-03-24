@@ -1,0 +1,5 @@
+interface:
+  display_name: "Weekly Review"
+  short_description: "Turn daily logs into a weekly research report"
+  default_prompt: "请基于现有日报整理正式周报，并给出清晰的下周日程安排表。"
+

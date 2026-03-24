@@ -1,0 +1,5 @@
+interface:
+  display_name: "Monthly Review"
+  short_description: "Create a monthly research summary and next-month plan"
+  default_prompt: "请基于周报和日报整理月报，并给出下月大目标、小目标和预计完成时间分布。"
+

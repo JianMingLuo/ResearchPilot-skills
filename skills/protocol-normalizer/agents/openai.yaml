@@ -1,0 +1,5 @@
+interface:
+  display_name: "Protocol Normalizer"
+  short_description: "Turn heterogeneous protocol files into structured method documents"
+  default_prompt: "请把这份 protocol 原件规范化为可复用的结构化方法文件，并保留原始来源与待确认项。"
+
