@@ -20,10 +20,18 @@ Use this skill for month-level synthesis and forward planning.
 - Include:
   - 本月主要进展
   - 本月问题与风险
+  - 前序任务承接与跨月滚动事项
   - 下月整体目标
   - 下月目标拆解
   - 预计完成时间分布
 - Keep month review as a planning framework, not a diary
+- Do not plan next month only from this month’s final notes if older unfinished commitments still exist
+- Prefer bounded retrieval from:
+  - monthly weekly reports
+  - critical daily logs when needed
+  - the current action tracker
+  - the latest relevant workflow handoff
+- Surface cross-month unfinished tasks explicitly
 
 ## Default subagent level
 - `medium-council`
@@ -41,6 +49,10 @@ Use this skill for month-level synthesis and forward planning.
 - The main agent must still produce the only final monthly report.
 - User-visible process should be a short `audit-board`.
 - This skill should generate a `workflow_handoff` by default.
+- This handoff should explicitly carry:
+  - next-month must-do goals
+  - unfinished cross-month tasks
+  - inherited high-priority tasks still open
 
 ## Recommended workspace outputs
 - `03_Monthly_Reports/YYYY-MM-monthly-report.md`
@@ -48,3 +60,4 @@ Use this skill for month-level synthesis and forward planning.
 ## Definition of done
 - The monthly report is based on bounded source material
 - Next-month goals are decomposed and time-distributed
+- Cross-month carry-over tasks are explicit

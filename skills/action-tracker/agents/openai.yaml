@@ -1,5 +1,4 @@
 interface:
   display_name: "Action Tracker"
-  short_description: "Consolidate follow-up tasks across project documents"
-  default_prompt: "请把相关会议、报告和项目材料中的行动项整合成可追踪的待办闭环清单。"
-
+  short_description: "Consolidate follow-up tasks into a project task hub"
+  default_prompt: "请把相关会议、报告和项目材料中的行动项整合成可追踪的任务中枢，并标明哪些任务应承接到日报、周报、月报或下月计划。"

@@ -23,10 +23,18 @@ Use this skill for multi-day weekly synthesis.
 - Include:
   - 本周主要进展
   - 本周问题与风险
+  - 前序任务承接与未完成项滚动
   - 未完成项
   - 下周重点任务
   - 下周日程安排表
 - Keep research reporting primary; inject non-experiment schedule only when relevant or requested
+- Do not derive next-week priorities only from the latest daily log if older unfinished commitments still exist
+- Prefer bounded retrieval from:
+  - this week’s daily logs
+  - the current action tracker
+  - the latest relevant workflow handoff
+  - needed schedule constraints
+- Surface unfinished carry-over tasks explicitly instead of silently dropping them
 
 ## Default subagent level
 - `medium-council`
@@ -44,6 +52,10 @@ Use this skill for multi-day weekly synthesis.
 - The main agent must still produce the only final weekly report.
 - User-visible process should be a short `audit-board`, not raw agent transcripts.
 - This skill should generate a `workflow_handoff` by default.
+- This handoff should explicitly carry:
+  - next-week must-do items
+  - unfinished carry-over tasks
+  - inherited tasks still open from trackers or handoffs
 
 ## Recommended workspace outputs
 - `02_Weekly_Reports/YYYY-Www-weekly-report.md`
@@ -51,3 +63,4 @@ Use this skill for multi-day weekly synthesis.
 ## Definition of done
 - The week is summarized without replacing source daily logs
 - A clear next-week schedule table is present
+- Carry-over tasks and unfinished obligations are explicit
